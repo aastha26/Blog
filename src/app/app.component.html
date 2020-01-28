@@ -1,0 +1,300 @@
+<!--The content below is only a placeholder and can be replaced.
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+<h2>Here are some links to help you start: </h2>
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>
+<alert type="success">hello</alert>
+<button type="button" class="btn btn-primary">
+  Single Button
+</button>
+<br>
+<mat-checkbox>Check me!</mat-checkbox>
+<br>
+<button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+<br>
+<mat-toolbar color="primary" class="navbar">
+  <div>Code</div>
+  <div>
+    <span>Home</span>
+    <span>Home</span>
+    <span>Home</span>
+
+  </div>
+  
+</mat-toolbar>
+<br>
+<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+  <ngb-panel title="Simple">
+    <ng-template ngbPanelContent>
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+      aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+      craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+      occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+      labore sustainable VHS.
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel>
+    <ng-template ngbPanelTitle>
+      <span>&#9733; <b>Fancy</b> title &#9733;</span>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+      aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+      craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+      occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+      labore sustainable VHS.
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel title="Disabled" [disabled]="true">
+    <ng-template ngbPanelContent>
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+      aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+      craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+      occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+      labore sustainable VHS.
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion>-->
+<!----<nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+   Brand 
+  <a class="navbar-brand" href="#">
+    <img src="./assets/images/boot1.PNG">
+  </a>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search" >
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+   Links 
+  <ul class="navbar-nav ">
+    <li class="nav-item ">
+      <a class="nav-link" href="#">Link 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link 2</a>
+    </li>
+
+     Dropdown 
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Dropdown link
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+    <button type="button" class="btn btn-primary">Cart</button>
+
+    
+  </ul>
+</nav>-->
+<!----<nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+  
+  <img src="">
+  <form class="form-inline my-2 my-lg-0" style="padding-left: 20px; ">
+  <input class="form-control mr-lg-2" style="width: 600px;" type="search" placeholder="Search">
+
+  </form>
+  <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navSupportedContent">
+    <span class="navbar-toggle-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" style="padding-left: 150px;" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link navbar-text" href="#"><b>Login  Signup</b></a>
+      </li>
+      <div class="btn-group mr-3">
+        <button type="button" class="btn btn-primary"><b>More</b></button>
+        <div class="btn-group" ngbDropdown role="group" aria-label="Button with nested dropdown">
+          <button class="btn btn-primary dropdown-toggle-split" ngbDropdownToggle></button>
+          <div class="dropdown-menu" ngbDropdownMenu>
+            <button class="dropdown-item">One</button>
+            <button class="dropdown-item">Two</button>
+            <button class="dropdown-item">Four</button>
+          </div>
+        </div>
+      </div>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><b>Cart</b></a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+Model Code Start
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal header" style="background: deepskyblue; font-size: xx large;">
+    <h4 class="modal-title" id="modal-basic-title">Registration & signIn</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  
+  </div>
+  <div class="modal-body">
+    tab start code
+    <ngb-tabset>
+      <ngb-tab>
+        <ng-template ngbTabTitle>Login</ng-template>
+        <ng-template ngbTabContent>
+          <br>
+          <form>
+            <div class="form-group">
+              <div class="input-group mb-3">
+                <div class="input group prepend">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+
+                </div>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="info">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1"></span>
+                </div>
+                <input type="password" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="info">
+              </div>
+            </div>
+            <button type="button" style="margin-left: 39%;" class="btn btn-outline-success" (click)="c('Save click')"></button>
+          </form>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab>
+        <ng-template ngbTabTitle><b>Register</b></ng-template>
+        <ng-template ngbTabContent>
+          <br>
+          <form [formGroup]="registrationForm">
+            <div class="form-group">
+              <div class="col-md-2">
+                <label for="FormControlUserName" style="color: lightseagreen; font-size: medium;"><b>User</b></label>
+              </div>
+              <div class="col-md-6">
+                <input type="text" fromControlName="UserName" placeholder="User Name" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing">
+              </div>
+              <div class="col-md-4">
+                <span style="font-weight: bold; color: red;" *ngIf="!registrationForm.control['UserName'].valid&&registrationForm.controls['UserName'].dirty">
+                 <span *ngIf="registrationForm.controls.UerName.errors.required">User Name is Required</span>
+                 <span *ngIf="registrationForm.controls.UerName.errors.minlength">User Name minimum should be length of 3</span>
+                 <span *ngIf="registrationForm.controls.UerName.errors.maxlength">User Name maximum should be length of 50.</span>
+                </span>
+              </div>
+            </div>
+
+            <br>
+            <div class="row">
+              <div class="col-md-2">
+                <label for="FormControlEmail" style="color: lightseagreen;font-size: medium "><b>Email</b></label>
+              </div>
+              <div class="col-md-6">
+                <input type="email" fromControlName="Email" placeholder="Email" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing">
+              </div>
+              <div class="col-md-4">
+                <span style="font-weight: bold; color: red;" *ngIf="!registrationFormcontrols['Email'].valid&&registrationForm.controls['Email'].dirty">
+                <span *ngIf="registrationForm.controls.Email.errors.required">Email is required</span>
+                <span *ngIf="registrationForm.controls.email">Email is not in correct pattern</span>
+                
+                
+                </span>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-2">
+                <label for="FormControlRole" style="color: lightseagreen; font-size: medium;"><b>Role</b></label>
+              </div>
+              <div class="col-md-6">
+                <select class="form-control"  fromControlName="Role" id="exampleFormControlSelect2">
+                  <option [ngValue]="undefined">Select Role</option>
+                  <option>customers</option>
+                  <option>sellers</option>
+                  <option>Tech</option>
+                  <option>CSE</option>
+
+                </select>
+               </div>
+               <div class="col-md-4">
+                 <span style="font-weight: bold;color: red;" *ngIf="!registrationFormcontrols['Role'].valid&&registrationForm.controls['Role'].dirty">
+                  <span *ngIf="registrationForm.controls.Role.errors.required">Role is required</span>
+                  </span>
+                  
+               </div>
+            </div>
+            <br>
+            <div class="col-md-2">
+                <label for="FormControlRole" style="color: lightseagreen; font-size: medium;"><b>Phone no.</b></label>
+              </div>
+
+              <div class="col-md-6">
+                <input for="FormControlPhone" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing">
+              </div>
+
+              <div class="col-md-4">
+                  <span style="font-weight: bold;color: red;" *ngIf="!registrationFormcontrols['Phone'].valid&&registrationForm.controls['Phone'].dirty">
+                   <span *ngIf="registrationForm.controls.Phone.errors.required">Phone no. is required</span>
+                   </span>
+                   </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <label for="FormControlGender" style="color: lightseagreen; font-size: medium;">Gender</label>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-control" formControlName="Gender" id="exampleFormControlSelect1">
+                        <option>Select Gender</option>
+                        <option> Male</option>
+                        <option> Feamle</option>
+                        <option> Not Prefer To Disclose</option>
+                      </select>
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+
+
+                  </div>
+
+                  <button type="button" style="margin-left: 39%;" [disabled]="!registrationForm.valid" class="btn btn-outline-success" (click)="OnRegistrationForm.value)"><b>Registers</b></button>
+
+          </form>
+        </ng-template>
+      </ngb-tab>
+    </ngb-tabset>
+    
+  </div>-->
+
+
+
+      
+<app-header></app-header>
+<app-banner *ngIf="router.url == '/'"></app-banner>
+<app-blogpost-featured *ngIf="router.url == '/'"></app-blogpost-featured>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+
+  
+
